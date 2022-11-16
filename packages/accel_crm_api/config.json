@@ -1,0 +1,23 @@
+{
+    "server": {
+        "port": 3170
+    },
+    "dbUrl": "mongodb://localhost:27017/crm",
+    "secretKey": "CostOracle",
+    "staticFilesUrl": "/static/",
+    "smsKey": "",
+    "uploadUrl": "public/uploads/",
+    "auth": {
+        "user": "no-reply@accelgrowthtech.com",
+        "pass": "Accel@2023",
+        "smtp": "smtp.office365.com",
+        "port": 587,
+        "service": "Outlook365",
+        "security": "TLS"
+    },
+    "bcc": "shubham.kanfade@accelgrowthtech.com",
+    "appURL": "http://54.201.160.69:3171/auth/login",
+    "emailVerify": "http://localhost:3170/api/authentication/email-verify/",
+    "forgotPasswordURL": "http://54.201.160.69:3171/auth/forgotpassword",
+    "redirectVerification": "http://54.201.160.69:3171/auth/emailVerify/"
+}

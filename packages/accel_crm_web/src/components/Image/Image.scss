@@ -1,0 +1,12 @@
+.image.is-128x128 {
+  display: inline-block;
+}
+
+.image.is-circle img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image img {
+  animation: fadeIn 0.2s ease-out;
+}

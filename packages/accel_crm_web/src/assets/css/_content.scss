@@ -1,0 +1,47 @@
+.content {
+  table tr {
+    transition: all 0.2s ease-out;
+
+    td,
+    th {
+      border-color: $light;
+      border-width: 0 0 2px;
+      vertical-align: middle;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    border-bottom: 2px solid $light;
+    padding-bottom: 0.5em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  &:not(form) {
+    animation: fadeInUp 0.2s ease-out;
+  }
+}
+
+.tippy-tooltip {
+  strong {
+    color: $light !important;
+  }
+  small {
+    color: $grey-light !important;
+  }
+}
+
+::selection {
+  background: $primary;
+  color: $light;
+}
+
+

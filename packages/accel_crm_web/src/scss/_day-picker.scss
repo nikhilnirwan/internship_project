@@ -1,0 +1,26 @@
+.DayPicker {
+  &-Weekday {
+    color: $grey-light !important;
+  }
+
+  &-Day {
+    transition: 0.2s background-color ease-in-out;
+
+    &:hover {
+      background-color: $light !important;
+      border-radius: 4px !important;
+    }
+
+    &--today {
+      color: $primary !important;
+    }
+
+    &--outside {
+      color: $grey-light !important;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    width: 100%;
+  }
+}

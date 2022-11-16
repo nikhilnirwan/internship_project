@@ -1,0 +1,46 @@
+.label {
+  font-weight: 400;
+}
+
+label {
+  user-select: none;
+}
+
+.input,
+.select select {
+  border: 1;
+  box-shadow: none !important;
+  // background-color: $light;
+  transition: 0.3s background-color;
+  padding: 1em 1em;
+  width: 100%;
+  height: auto;
+
+  &:focus,
+  &:active {
+    background-color: lighten($light, 2%);
+  }
+}
+
+.select {
+  width: 100%;
+  height: auto !important;
+}
+
+p.help {
+  animation: fadeInUp 0.2s ease-out;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.control.has-icons-right .icon.is-right {
+  top: 10px;
+  right: 0.5em;
+}
+
+.control.has-icons-left .icon.is-left {
+  top: 10px;
+  left: 0.5em;
+}

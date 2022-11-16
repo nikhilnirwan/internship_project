@@ -1,0 +1,95 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate(0, 10px);
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate(-20px, 0);
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.fade-in-up {
+  animation: 0.2s fadeInUp ease-in-out;
+}
+
+.display-flex {
+  display: flex !important;
+  > label {
+    font-weight: 600;
+  }
+  > div {
+    padding: 0px 10px;
+  }
+}
+
+.next-visit {
+  background: #387db6;
+  width: 135px;
+  text-align: center;
+  color: #ffff;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+
+.fields-setup {
+  width: 14%;
+  margin-top: 1.5rem;
+  > div {
+    > input {
+      background: #ffffff !important;
+      border: 1px solid lightgray !important;
+      border-radius: 0px !important;
+      padding: 7px !important;
+    }
+  }
+}
+
+.margin-top-select {
+  margin-top: 1.5rem;
+  > div {
+    > div {
+      > select {
+        background: #ffffff !important;
+        border: 1px solid lightgray !important;
+        padding: 7px 21px !important;
+        border-radius: 0px !important;
+      }
+    }
+  }
+}
+
+.float-rigth {
+  float: right;
+}
+
+.label-margin-top {
+  position: relative;
+  top: -6px;
+}

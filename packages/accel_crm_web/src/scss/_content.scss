@@ -1,0 +1,132 @@
+.content {
+  table tr {
+    transition: all 0.2s ease-out;
+
+    td,
+    th {
+      border-color: $light;
+      border-width: 0 0 2px;
+      vertical-align: middle;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    border-bottom: 2px solid $light;
+    padding-bottom: 0.5em;
+  }
+
+  h1 {
+    font-size: 2.25em;
+  }
+
+  &:not(form) {
+    animation: fadeInUp 0.2s ease-out;
+  }
+}
+
+.tippy-tooltip {
+  strong {
+    color: $light !important;
+  }
+  small {
+    color: $grey-light !important;
+  }
+}
+
+::selection {
+  background: $primary;
+  color: $light;
+}
+
+@media screen and (max-width:768px){
+  
+  
+}
+@media screen and (max-width:1024px){
+    .contenttable td, tr {
+      display: table-row !important;
+  }
+  .filter-area.fiterSet{
+    display: block !important;
+  }
+  .filter-area.fiterSet > .basic-single {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .filter-area.fiterSet .column11, .filter-area.fiterSet .column12,
+   .filter-area.fiterSet .column13, .filter-area.fiterSet .column14, 
+   .filter-area.fiterSet .column15, .filter-area.fiterSet .column20, 
+   .filter-area.fiterSet .column17, .filter-area.fiterSet .column16, .filter-area.fiterSet .column22, 
+   .filter-area.fiterSet .column23,
+    .filter-area.fiterSet .column30, .setWidth100, 
+   .setWidth100 button.buttoncolor8,  .setWidth100 .row123 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .filter-area.fiterSet .column14 .selectblock, .filter-area.fiterSet .column20 .selectblock{
+    height:auto !important;
+  }
+  .filter-area.fiterSet.setInputSect .column1.left3 {
+    flex: 100%;
+    width: 100%;
+    height: auto !important;
+  }
+  .filter-area.fiterSet.setInputSect .column1.middle1 {
+    width: 100%;
+      margin: 30px auto;
+      height: auto;
+  }
+  .nextFilterTableSection .right2 {
+    width: 100%;
+    text-align: center;
+    float: none !important;
+    display: block;
+  }
+  .filter-area.fiterSet .column12 label {
+      margin-right: 15px;
+  }
+  .rows.setDispBlock {
+      display: block !important;
+  }
+  .rows.setDispBlock label {
+      display: block;
+      margin: 10px auto !important;
+  }
+  .rows.setDispBlock input[type="text"] {
+    margin: 10px auto !important;
+    height: auto !important;
+  }
+  .column30.mLeft0, .column20.mLeft0  { margin-left:0px !important; }
+  .filter-area.fiterSet input[type="text"] {
+      width: 100% !important;
+      margin-left: 0 !important;
+      margin-bottom: 5px;
+  }
+  .filter-area.fiterSet button.buttoncolor88 {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .filter-area.fiterSet label.lablestyle {
+      width: 100% !important;
+      margin-top: 15px !important;
+      margin-left: 0 !important;
+  }
+  .navbar-menu a {
+      padding: 5px;
+  }
+  .setWidth100 .rows {
+      display: block;
+  }
+  label.setWidth100 {
+      padding-bottom: 15px;
+  }
+  .setWidth100 {
+      margin-bottom: 15px;
+  }
+}

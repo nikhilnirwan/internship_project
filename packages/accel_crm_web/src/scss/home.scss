@@ -1,0 +1,551 @@
+.Running-orders {
+  align-items: left;
+  background-color: #252424;
+  // padding: 3px;
+  color: #ffffff;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.Running-orders-header {
+  text-align: center;
+  text-align: center;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #6a6a6a;
+  width: 150;
+}
+
+.Running-orders-content {
+  padding-left: 5px;
+  width: 45%;
+  height: 45%;
+  margin-left: 15px;
+}
+
+.contents {
+  margin-top: 2%;
+}
+
+.colorstyles {
+  background-color: #6a6a6a;
+}
+
+.order {
+  align-items: left;
+}
+
+.Refresh_button {
+  background-color: #0adf35;
+  color: #ffffff;
+  font-style: bold;
+  border-style: none;
+  align-items: right;
+}
+
+.rightAllign {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.column1 {
+  float: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  height: 80px;
+}
+.column2 {
+  float: left;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 4px;
+  padding-bottom: 1px;
+  width: 15%;
+  height: 100%;
+}
+
+.left1 {
+  width: 30%;
+}
+.left2 {
+  width: 30%;
+}
+.left3 {
+  width: 18%;
+}
+
+.middle1 {
+  width: 90%;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #f4f5f8;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 5px solid rgb(65, 151, 255);
+}
+.buttoncolor {
+  background-color: #4693ff;
+  border-style: none;
+  color: #ffffff;
+  width: 70%;
+  height: 50%;
+  font-style: bold;
+  border-radius: 7%;
+}
+
+.buttoncolor2 {
+  background-color: #4693ff;
+  border-style: none;
+  color: #ffffff;
+  width: 40%;
+  height: 60%;
+  font-style: bold;
+  border-radius: 7%;
+}
+
+.buttoncolor3 {
+  background-color: #4693ff;
+  border-style: none;
+  color: #ffffff;
+  width: 25%;
+  height: 50%;
+  font-style: bold;
+  border-radius: 7%;
+  margin-left: 10px;
+}
+
+.buttoncolor4 {
+  background-color: #4693ff;
+  border-style: none;
+  color: #ffffff;
+  width: 40%;
+  height: 50%;
+  font-style: bold;
+  border-radius: 7%;
+}
+
+.buttoncolor5 {
+  background-color: #f72121;
+  border-style: none;
+  color: #ffffff;
+  width: 40%;
+  height: 60%;
+  font-style: bold;
+  border-radius: 7%;
+}
+
+.buttoncolor6 {
+  background-color: #4693ff;
+  border-style: none;
+  color: #d6d6d6;
+  width: 30%;
+  height: 50%;
+  font-style: bold;
+  border-radius: 7%;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+.buttoncolor7 {
+  background-color: #f72121;
+  border-style: none;
+  color: #ffffff;
+  width: 35%;
+  height: 50%;
+  font-style: bold;
+  margin-left: 6%;
+  margin-top: 3%;
+  border-radius: 7%;
+}
+
+.buttoncolor8 {
+  background-color: #4693ff;
+  border-style: none;
+  color: #ffffff;
+  width: 70%;
+  height: 100%;
+  font-style: bold;
+  border-radius: 7%;
+
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.buttoncolor98 {
+  background-color: #6f6f6f;
+
+  border-style: none;
+  color: #ffffff;
+  width: 70%;
+  height: 100%;
+  font-style: bold;
+  border-radius: 7%;
+
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.newone {
+  width: 100%;
+  padding: 1%;
+  margin: 0.5%;
+  // border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.buttoncolor9 {
+  background-color: #4693ff;
+  border-style: none;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  font-style: bold;
+  border-radius: 7%;
+}
+.lableclass {
+  font-weight: 700;
+}
+
+.buttoncolor10 {
+  background-color: #a2a2a2;
+  margin: 0%;
+  padding: 10px;
+  border-style: none;
+  color: #000000;
+  width: 90%;
+  height: 100%;
+  font-weight: 500;
+  border-radius: 7%;
+  font-weight: 800;
+}
+
+.buttoncolor88 {
+  background-color: rgb(242, 255, 0);
+  font-weight: 500;
+  border-radius: 8%;
+}
+.lablestyle {
+  font-weight: 500;
+  width: 8%;
+}
+
+.right2 {
+  width: 20%;
+  float: right;
+  display: flex;
+  padding-left: 1px;
+  padding-right: 1px;
+  justify-content: flex-end;
+}
+
+.full-area {
+  width: 100%;
+  height: 40%;
+}
+
+.row {
+  display: flex;
+  padding: 0%;
+}
+.row1 {
+  height: 50%;
+}
+.column {
+  width: 100%;
+  padding-top: 1px;
+}
+
+.column1 {
+  flex: 25%;
+  // width: 12%;
+}
+.column11 {
+  width: 30%;
+}
+.column12 {
+  padding-left: 10px;
+  // align-self: center;
+  width: 9%;
+}
+.column22 {
+  padding: 0%;
+  // align-self: center;
+  width: 20%;
+}
+
+.column13 {
+  width: 20%;
+}
+.column14 {
+  width: 20%;
+}
+.column20 {
+  width: 14%;
+}
+// .column22 {
+//   width: 10%;
+// }
+.column30 {
+  width: 19%;
+}
+.column15 {
+  margin-left: 10px;
+  width: 15%;
+}
+.column16 {
+  width: 20%;
+  height: 80%;
+  float: right;
+  align-self: flex-start;
+  display: flex;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.column17 {
+  padding-top: 1%;
+  margin-left: 10px;
+  width: 5%;
+}
+
+.column23 {
+  margin-left: 20px;
+  padding-top: 20px;
+  width: 10%;
+  color: #f2ff00;
+  font-weight: 900;
+}
+
+.selectblock {
+  height: 10px;
+}
+
+.column2 {
+  width: 30%;
+  height: 100%;
+}
+.column3 {
+  width: 50%;
+  height: 30%;
+  padding: 2px;
+  margin: 0%;
+}
+
+.excludesb {
+  padding-top: 10px;
+  padding-left: 12px;
+  width: 40%;
+}
+.rowsx {
+  width: 100%;
+  height: 50%;
+}
+.dateup {
+  width: 60%;
+  border-style: none;
+  padding-top: 10px;
+  padding-left: 12px;
+  align-content: stretch;
+}
+
+.row10 {
+  width: 100%;
+  height: 58%;
+  padding: 0px;
+}
+
+.row11 {
+  width: 100%;
+  height: 80%;
+}
+
+/* toggle in label designing */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  background-color: rgb(59, 143, 245);
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+/* After slide changes */
+.toggle:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: gray;
+  top: 1px;
+  left: 1px;
+  transition: all 0.5s;
+}
+
+/* Checkbox cheked effect */
+.checkbox:checked + .toggle::after {
+  left: 25px;
+}
+
+/* Checkbox cheked toggle label bg color */
+.checkbox:checked + .toggle {
+  background-color: green;
+}
+
+/* Checkbox vanished */
+.checkbox {
+  display: none;
+}
+
+.row123 {
+  height: 100%;
+  width: 20%;
+}
+
+.letter {
+  color: #ffffff;
+  font-style: bold;
+  padding: 16%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+.letter2 {
+  color: #ffffff;
+  font-style: bold;
+}
+
+.letter3 {
+  color: #000000;
+  font-style: bold;
+}
+
+// .select__control.css-yk16xz-control .class1 {
+//   padding: 20% !important;
+// }
+
+// .dtala {
+//   margintop: 0% !important;
+//   margin-bottom: 0% !important;
+// }
+.borderstyles {
+  background-color: #bfbfbf;
+  width: 100%;
+}
+.ultimatecss {
+  background-color: #04c404;
+
+  color: #ffffff;
+  width: 90px;
+  height: 32px;
+  border-radius: 5px;
+  margin: 0%;
+  padding: 1%;
+  margin-left: 10%;
+  border: 1px solid #04c404;
+}
+.ultimatecss111 {
+  background-color: #707070;
+  color: #ffffff;
+  width: 90px;
+  height: 32px;
+  border-radius: 5px;
+  margin: 0%;
+  padding: 1%;
+  margin-left: 10%;
+  border: 1px solid #707070;
+}
+.special {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+.R {
+  font-weight: 500;
+  padding-top: 60%;
+}
+
+.black_bold_title {
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.black_contnet {
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.inprocess {
+  background-color: #ffbb00;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+
+.Pending {
+  background-color: #f2ff00;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+.Completed {
+  background-color: #00c21a;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+
+.notstarted {
+  background-color: #f72121;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+
+.inprocess:hover {
+  background-color: #ffbb00;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+
+.Pending:hover {
+  background-color: #f2ff00;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+.Completed:hover {
+  background-color: #00c21a;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+
+.notstarted:hover {
+  background-color: #f72121;
+  color: #ffffff;
+  border-radius: 7%;
+  margin-left: 15px;
+  padding: 1%;
+}
+.selectblock {
+  height: 30%;
+  width: 10%;
+}

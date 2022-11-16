@@ -1,0 +1,27 @@
+<script>
+    function test_prime(l, r) {
+        for (var counter = l; counter <= r; counter++) {
+
+            var notPrime = false;
+            for (var i = 2; i <= counter; i++) {
+                if (counter % i === 0 && i !== counter) {
+                    notPrime = true;
+                }
+            }
+            if (notPrime === false) {
+                // console.log(counter);
+            } else {
+                if (counter == reverse(counter.toString())) {
+                    console.log(counter);
+
+                }
+            }
+        }
+    }
+
+    function reverse(s) {
+        return s.split("").reverse().join("");
+    }
+
+    console.log(test_prime(150, 200));
+</script>

@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Assistant:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:700');
+
+// Configuration
+$primary: #ed4d2c;
+$info: #144660;
+$danger: #ff6e8b;
+$warning: #ffe993;
+$success: #ed4d2c;
+$white-bis: #f8fafd;
+$white-ter: #f2f5fa;
+$grey-lighter: #d1d4d8;
+$dark: #6f727e;
+
+$link: $primary;
+$family-primary: 'Assistant', sans-serif;
+
+// Dependencies
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~bulma';
+@import '~bulma-steps/src/sass/index.sass';
+@import '~react-tippy/dist/tippy.css';
+@import '~react-day-picker/lib/style.css';
+
+// Global Styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 17px;
+}
+
+@import 'animations';
+
+// Sub Styles
+@import 'buttons';
+@import 'content';
+@import 'inputs';
+@import 'layout';
+@import 'day-picker';
+
+// Component Styles
+@import 'components';
+
+
+.float-right{
+  float: right;
+}

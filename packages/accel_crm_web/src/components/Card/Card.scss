@@ -1,0 +1,45 @@
+.card {
+  box-shadow: 0px 4px 5px rgba($grey-dark, 0.1), 0 5px 15px rgba($grey-dark, 0.1);
+
+  &.is-bordered {
+    border: 2px solid $white;
+    transition: border-color 0.3s ease-out;
+
+    &.is-active {
+      border-color: $primary;
+    }
+  }
+
+  &.list-item {
+    opacity: 0;
+    animation-name: fadeInLeft;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    border: 0;
+  }
+}
+
+a .list-item .card-content {
+  opacity: 1;
+  transition: 0.2s opacity;
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+iframe#myId {
+  height: 100%;
+}
+
+iframe#myId {
+  overflow: hidden;
+}
+iframe#myId html {
+  overflow: scroll;
+}
+iframe#myId ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
